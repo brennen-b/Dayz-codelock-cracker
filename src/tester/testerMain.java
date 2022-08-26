@@ -20,27 +20,18 @@ import java.util.Scanner;
 import java.awt.*;    
 import java.awt.event.*;    
 
-
-
-
-
 public class testerMain {
 
 	public static void main(String[] args) throws Exception{
 		
 		KeyEvent pause;
-	//	pause.addKeyListener();
 		Thread.sleep(3000) ;
-
-	
-
 		Robot robot = new Robot();
 		LinkedList newList = new LinkedList();
 
 		String fileName = "C:\\Users\\Bick\\eclipse-workspace\\tester\\src\\codes";
 	
 		long elapsedTime;
-
 
 		BufferedReader br = new BufferedReader(
 				new InputStreamReader(new FileInputStream(fileName)));
@@ -83,11 +74,6 @@ public class testerMain {
 
 			System.out.print(i+ "-");
 
-
-			//if (i<1800) {
-		//		continue;
-
-	//}
 			
 			if (1 != 'a') {
 			keyStroke(a);
