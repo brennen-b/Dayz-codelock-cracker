@@ -28,8 +28,8 @@ public class testerMain {
 		Thread.sleep(3000) ;
 		Robot robot = new Robot();
 		LinkedList newList = new LinkedList();
-
-		String fileName = "C:\\Users\\Bick\\eclipse-workspace\\tester\\src\\codes";
+		//input filepath of code list
+		String fileName = "C:\\Users\\USER_NAME\\eclipse-workspace\\tester\\src\\codes";
 	
 		long elapsedTime;
 
